@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:700&display=swap" rel="stylesheet">
+  <title>Project 4: Pizzabot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="side"></div>
+  <div class="main">
+    <div class="header">
+      THE REAL DEAL!
+    </div>
+    <p class="textstyle" id="welcome-text">
+      Order your Pizza!
+    </p>
+    <form action="http://httpbin.org/anything" method="POST" target="_blank">
+      <div class="picker" id="picker">
+        <input type="checkbox" name="vegetarian" id="vegetarian"><label
+         class="pizzaname" for="vegetarian">Vegetarian</label>
+        <input type="checkbox" name="pepperoni" id="pepperoni"><label
+         class="pizzaname" for="pepperoni">Pepperoni</label>
+        <input type="checkbox" name="hawaiian" id="hawaiian"><label
+         class="pizzaname" for="hawaiian">Hawaiian</label>
+      </div>
+      <label class="textstyle" for="quantity" id="quantity-text">How many do you want?</label>
+      <div class="quantity" id="quantity-div">
+        <select name="quantity" id="quantity">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <input class="orderbutton" type="image" src="images/orderbutton.png" id="submit" value="Order now!" disabled>
+      </div>
+    </form>
+    <div class="message-timer" id="message-timer">
+      <p id="message"></p>
+      <p class="timestyle" id="counter"><span class="timestyle" id="minutes"></span>:<span class="timestyle" id="seconds"></span></p>
+      <div class="pizza-order" id="pizza-order">
+      </div>
+      <p><h2>Did you know?</h2><span id="did-you-know"></span></p>
+    </div>
+    </div>
+  </div>
+  <div class="side"></div>
+  <script src="pizzabot.js"></script>
+</body>
+<a href="https://en.wikipedia.org/wiki/Hawaiian_pizza" target="_blank"></a>
+</html>
