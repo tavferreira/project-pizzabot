@@ -1,8 +1,8 @@
-This was the fourth and last project of the first sprint on the Technigo Frontend Bootcamp, which was focused on Javascript basics. The project was also a pair-programming task with [Joacim Nilsen](https://github.com/JoacimNilsen).
+This project was a pair-programming task with [Joacim Nilsen](https://github.com/JoacimNilsen).
 
 ## 1. What is this?
 
-The purpose of this assignment was to practice pair-programming and some basic Javascript. The goal was to build a webpage that would allow ordering pizza.
+The purpose of this project was to practice pair-programming and some basic Javascript. The goal was to build a webpage that would allow ordering pizza.
 
 These were some suggestions for stretch goals and a deep-dive in this project:
 
